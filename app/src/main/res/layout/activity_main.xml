@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="跳頁"
+       android:id="@+id/intentbtn1"/>
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="撥電話"
+        android:id="@+id/intentbtn2"/>
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="相機"
+        android:id="@+id/intentbtn3"/>
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打開瀏覽器"
+        android:id="@+id/intentbtn4"/>
+
+
+   <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="請輸入姓名"/>
+
+
+   <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userage"
+        android:hint="請輸入數字年齡"
+        android:inputType="number"/>
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="傳值跳頁"
+        android:id="@+id/intentbtn5"/>
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/intentbtn7"
+        android:text="跳頁回傳直"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtprice"
+       android:textSize="20sp"/>
+
+</LinearLayout>
